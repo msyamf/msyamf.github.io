@@ -27,7 +27,7 @@ $(function(){
 	 	if ($('.panda-countdown').length) {
 	 		var _now   = new Date(),
 			//_date  = new Date(Date.UTC(_now.getFullYear(), _now.getMonth() + 1, 6));
-			_date  = new Date("2019-12-07");
+			_date  = new Date(_now.getFullYear()+"-12-07");
 			//_date  = _now;
 			//if (_date.getTime() > _now.getTime()) {
 				var diff  = _date.getTime()/1000 - _now.getTime()/1000;
